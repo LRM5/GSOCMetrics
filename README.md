@@ -14,3 +14,4 @@ Check-In Scraper is a Google Sheets automation script written in JavaScript that
 A Google Sheets script that reads the name of documented travel sheet names and cross-references with a database of travelers then will match the name of the trips with the travelers that were on them.
 
 # Country Code Matching 
+Takes the contents of the cell where trip names are located then cross-references a data base containing country codes and the names of countries to accurately match the trip to the country the trip was located in.
