@@ -2,7 +2,7 @@ function updatePersonnelTrips() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var tripsSheet = ss.getSheetByName("Trips");
   var travelersSheet = ss.getSheetByName("DB:Travelers");
-  var outputSheet = ss.getSheetByName("NC Personnel and Trips");
+  var outputSheet = ss.getSheetByName("Personnel and Trips");
 
   // Fetching trip data
   var tripDataRange = tripsSheet.getRange("A2:A" + tripsSheet.getLastRow());
